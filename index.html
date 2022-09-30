@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCWeb</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- Estilos da aplicação -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <header class="header">
+        <a href="#home" class="header-brand"><img src="./imgs/MCWeb Logo Curto.png" alt="Logo Curto" class="header-logo"></a>
+        <nav class="header-navbar">
+            <ul>
+                <li>
+                    <a href="#sobre">SOBRE</a>
+                </li>
+                <li>
+                    <a href="#servicos">SERVIÇOS</a>
+                </li>
+                <li>
+                    <a href="#contato">CONTATO</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="home" id="home">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./imgs/Carrosel 2.jpg" class="d-block w-100" alt="Imagem 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imgs/Carrosel 3.jpg" class="d-block w-100" alt="Imagem 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section class="sobre" id="sobre">
+            <div class="sobre-texto">
+                <p>
+                    Apaixonado por desenvolvimento de softwares, já possuo experiencia no mercado de trabalho, sei lidar
+                    com
+                    pressão e com prazos de entregas.
+                    </br>
+                    </br>
+                    O conhecimento que eu adquiri foi por meios de estudo, na Universidade do Vale do Itajaí, e dentro
+                    do
+                    mercado de trabalho.
+                    </br>
+                    </br>
+                    A sensação de ter um projeto finalizado e sendo usado por outros é gratificante.
+                </p>
+            </div>
+            <div class="sobre-img">
+                <img src="./imgs/MCWeb Logo.png" class="logo-completo" alt="Logo completo">
+            </div>
+        </section>
+        <section class="servicos" id="servicos">
+            <img src="./imgs/C.png" class="img-C" alt="C">
+            <img src="./imgs/CSharp.png" class="img-CSharp" alt="C#">
+            <img src="./imgs/CPlus.png" class="img-CPlus" alt="C++">
+            <img src="./imgs/Node.png" class="img-Node" alt="Node">
+            <img src="./imgs/Java.png" class="img-Java" alt="Java">
+            <img src="./imgs/Python.png" class="img-Python" alt="Python">
+            <img src="./imgs/React.png" class="img-React" alt="ReactJS">
+            <img src="./imgs/MySQL.png" class="img-MySQL" alt="MySQL">
+        </section>
+        <section class="contato" id="contato">
+            <form class="contato-form">
+                <input type="text" class="form-control" placeholder="Nome" aria-label="Nome"
+                    aria-describedby="basic-addon1">
+                <input type="email" class="form-control" placeholder="Email" aria-label="Email"
+                    aria-describedby="basic-addon1">
+                <input type="number" class="form-control" placeholder="Telefone" aria-label="Telefone"
+                    aria-describedby="basic-addon1">
+                <input type="text" class="form-control" placeholder="Assunto" aria-label="Assunto"
+                    aria-describedby="basic-addon1">
+                <textarea class="form-control" placeholder="Mensagem" aria-label="With textarea"></textarea>
+                <button type="button" class="btn btn-dark">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p class="footer-text">&copy; MCWeb - Todos os direitos reservados</p>
+    </footer>
+</body>
+
+</html>
